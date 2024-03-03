@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>add-product</title>
+    <style>
+        body {
+            width: 100vw;
+            height: 100vh;
+            background: bisque;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            display: flex;
+            width: 90%;
+            margin:auto;
+            padding: 2px;
+            background-color: rgb(83, 83, 167);
+            border-bottom: 2px solid white;
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+        nav ul li {
+            width: fit-content;
+            padding: 2px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        nav ul li a {
+            text-decoration: underline;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            color: yellowgreen;
+        }
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">shop</a></li>
+                <li><a href="/admin/add-product">add product</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>welcome to our shop</h1>
+        <p>products will add as soon as possible</p>
+    </main>
+</body>
+</html>
